@@ -1,0 +1,36 @@
+{
+  "format_version": [1, 0, 0],
+  "directional_lights": {
+    "sun": {
+      "illuminance": {
+        "0.00": 0.0,        // midnight
+        "0.15": 0.0,
+        "0.25": 1.0,        // sunrise
+        "0.50": 100000.0,   // noon
+        "0.75": 1.0,        // sunset
+        "0.85": 0.0,
+        "1.00": 0.0         // midnight
+      },
+      "color": [ 255.0, 255.0, 250.0, 255.0 ]
+    },
+    "moon": {
+      "illuminance": {
+        "0.00": 0.0,        // noon
+        "0.15": 0.0,
+        "0.25": 0.8,        // sunset
+        "0.50": 1.4,        // midnight
+        "0.75": 0.8,        // sunrise
+        "0.85": 0.0,
+        "1.00": 0.0         // noon
+      },
+      "color": [ 255.0, 255.0, 255.0, 255.0 ]
+    },
+  "orbital_offset_degrees": 15.0
+  },
+
+  "point_lights": {
+    "colors": {
+      "minecraft:soul_torch": "#FFFFFF"
+    }
+  }
+}

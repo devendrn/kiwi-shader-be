@@ -1,0 +1,12 @@
+# ingnore dirs
+build/
+data/
+env/
+captures/
+.bak/
+
+# ignore files
+copy.sh
+
+# eol
+* text=lf

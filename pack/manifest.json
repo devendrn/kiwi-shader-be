@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "§c%w\n§7- A minimal shader for Deferred Pipeline!\n%v %c\n§3https://github.com/devendrn/kiwi-shader-be/",
+    "name": "Kiwi Shader",
+    "uuid": "fd4420dd-532a-4403-bdc0-4bb0b2b82a7e",
+    "version": [0, 0, 5],
+    "min_engine_version": [1, 20, 70]
+  },
+  "modules": [
+    {
+      "description": "A Renderdragon Shader for the Deferred Pipeline",
+      "type": "resources",
+      "uuid": "fd20ebb0-9472-4ecd-b13b-93d126c02ddd",
+      "version": [0, 0, 5]
+    }
+  ],
+  "metadata": {
+    "authors": ["devendrn"],
+    "url": "https://github.com/devendrn/kiwi-shader-be/"
+  },
+  "capabilities": [
+    "pbr"
+  ]
+}

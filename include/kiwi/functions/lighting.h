@@ -35,10 +35,10 @@ void evaluateDiscreteLighting(inout vec3 light, float blockAmbient) {
 }
 
 void evaluateIndirectLighting(
-    inout vec3 light,
-    vec3 skyZenith,
-    vec3 skyHorizon,
-    float skyAmbient
+  inout vec3 light,
+  vec3 skyZenith,
+  vec3 skyHorizon,
+  float skyAmbient
 ) {
   float skyShade = skyAmbient;
   light += skyShade * skyShade * skyZenith;

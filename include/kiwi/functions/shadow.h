@@ -8,12 +8,6 @@
 #include "../samplers/lighting.h"
 
 /* mostly vanilla deferred code */
-struct DirectionalLightParams {
-  mat4 shadowProj[4];
-  int cascadeCount;
-  int isSun;
-  int index;
-};
 
 int getShadowCascade(int lightIndex, vec3 worldPos, out vec4 projPos) {
   #ifndef DISABLE_DEFERRED
